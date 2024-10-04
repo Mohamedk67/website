@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <meta name="author" content="Mohamed" />
+    <meta name="description" content="Mohamed's website" />
+    <title>Mohamed Katary</title>
+    <link rel="icon" href="img/WebsiteLogo.png" type="image/x-icon" />
+    <link rel="styleSheet" href="style.css" type="text/css" />
+
+    <script
+      src="https://kit.fontawesome.com/3bdd24dc02.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="containeri">
+        <div class="bubbles">
+          <span style="--i: 11"></span>
+          <span style="--i: 12"></span>
+          <span style="--i: 24"></span>
+          <span style="--i: 10"></span>
+          <span style="--i: 14"></span>
+          <span style="--i: 23"></span>
+          <span style="--i: 18"></span>
+          <span style="--i: 16"></span>
+          <span style="--i: 19"></span>
+          <span style="--i: 20"></span>
+          <span style="--i: 22"></span>
+          <span style="--i: 25"></span>
+          <span style="--i: 18"></span>
+          <span style="--i: 21"></span>
+          <span style="--i: 15"></span>
+          <span style="--i: 13"></span>
+          <span style="--i: 26"></span>
+          <span style="--i: 17"></span>
+          <span style="--i: 13"></span>
+          <span style="--i: 28"></span>
+          <span style="--i: 11"></span>
+          <span style="--i: 12"></span>
+          <span style="--i: 24"></span>
+          <span style="--i: 10"></span>
+          <span style="--i: 14"></span>
+          <span style="--i: 23"></span>
+          <span style="--i: 18"></span>
+          <span style="--i: 16"></span>
+          <span style="--i: 19"></span>
+          <span style="--i: 20"></span>
+          <span style="--i: 22"></span>
+          <span style="--i: 25"></span>
+          <span style="--i: 18"></span>
+          <span style="--i: 21"></span>
+          <span style="--i: 15"></span>
+          <span style="--i: 13"></span>
+          <span style="--i: 26"></span>
+          <span style="--i: 17"></span>
+          <span style="--i: 13"></span>
+          <span style="--i: 28"></span>
+        </div>
+        <nav>
+          <img src="img/MenuLogo.png" class="logo" width="125" height="70" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Sevices</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Software Engineer</p>
+          <h1>
+            <span>Hi, I'm</span>
+            <svg viewBox="0 0 200 70">
+              <text y="50">Mohamed</text>
+            </svg>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ----------about----------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/GreenShirtPic.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm currently an undergraduate student at Cornell Univeristy
+              studying Computer Science. I have experience with full-stack
+              development, computer architecture and computer graphics. I have
+              used Threejs, Tensorflow and Pytorch.
+              <br /><br />
+              I'm an outgoing person, I love to meet new people and discover new
+              things. In my free time, I enjoy taking photos, walking and
+              hiking. I am always interested in talking about favorite places,
+              so feel inclined to message me about my favorite cities and towns!
+              <br /><br />
+              I have a business side to me! I currently operate an
+              amusement-based small business with over 40 locations.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Software Development</span><br />Designing software
+                  applications
+                </li>
+                <li><span>Web Development</span><br />Web app development</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Jul, 2024 - Aug, 2024</span><br />Software Engineer at
+                  Tealstone Consulting
+                </li>
+                <li>
+                  <span>Feb, 2023 - Jan, 2024</span><br />Data Researcher at
+                  Cornell University Sustainable Design
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Aug, 2022 - May, 2026</span><br />Cornell University
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------services---------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <h2>Web Design</h2>
+            <p>
+              Ready to take your online presence to the next level? Contact me
+              today for a free consultation, and let's create a website that
+              truly works for you!
+            </p>
+            <a href="#"> Learn More</a>
+          </div>
+          <div>
+            <i class="fa-duotone fa-solid fa-rocket"></i>
+            <h2>Software Design</h2>
+            <p>
+              In today's fast-paced world, businesses and individuals need
+              software solutions that don't just meet their needs—they elevate
+              them. I can develop powerful tools designed to streamline your
+              processes, enhance your productivity, and drive your innovation.
+            </p>
+            <a href="#"> Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------portfolio-------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="img/GraphicsPicture.jpg" alt="Graphical Render" />
+            <div class="layer">
+              <h3>Graphical Render</h3>
+              <p>Post-processing render of background art.</p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/CachePicture.jpg" alt="Cache Picture" />
+            <div class="layer">
+              <h3>Caches in C</h3>
+              <p>
+                I explored the differences between VI and MSI protocols in
+                caches.
+              </p>
+              <a href="https://github.com/cs3410-p5/cs3410-p5"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- ---------contact------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>mtk67@cornell.edu</p>
+            <div class="social-icons">
+              <a href="https://www.google.com/gmail/about/"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/mohamedkatary/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="downloads/Resume.pdf" download class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright © Mohamed Katary 2024. All Rights Reserved.</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "<https://script.google.com/macros/s/AKfycbxQ1Ie0Emefj325boMcHY67sj4Gau-6wQPPhbcpgrGt2TuYM-icjpOg7OaRcKOHAvz4/exec>";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>

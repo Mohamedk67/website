@@ -1,0 +1,91 @@
+    <h1>Fun Things I want to do</h1>
+
+    <hr />
+    <nav>
+      <ul>
+        <li>
+          <a href="#Places">Places I want to visit</a>
+        </li>
+        <li>
+          <a href="#Resturants">Resturants I want to try</a>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+
+    <h2>Quick Info</h2>
+    <p>This is my first web page.</p>
+
+    <h3>Productivity</h3>
+    <p>Here are some examples:</p>
+    <ol>
+      <li>Work hard</li>
+      <li>Fun times</li>
+    </ol>
+    <hr />
+
+    <section id="Places">
+      <h2>Places I'd <em>Like</em> to Visit</h2>
+      <ul>
+        <li>
+          <p>
+            I heard great things about
+            <abbr title="Austin is Texas's capital.">Austin</abbr> Texas.
+          </p>
+        </li>
+        <!-- TODO: Add more places.-->
+        <li>
+          <p>I heard good things about going here:</p>
+          <address>
+            <a href="https://www.rockefellercenter.com/">
+              45 Rockefeller Plaza,<br />
+              New York, NY 10111 <br
+            /></a>
+          </address>
+        </li>
+      </ul>
+    </section>
+
+    <section id="Resturants">
+      <h3>Resturants I want to try</h3>
+      <dl>
+        <dt>
+          <strong em
+            >Filoncino Cafe, <abbr title="Staten Island">S.I.</abbr>
+          </strong>
+        </dt>
+        <dd>I want to order the Brooklyn Cheesesteak</dd>
+        <br />
+        <img
+          src="img/Filoncino_BK_CH_STK.jpg"
+          alt="Brooklyn Cheesesteak"
+          title="Brooklyn Cheesesteak from Filoncino Cafe"
+          loading="lazy"
+          width="250"
+          height="250"
+        />
+        <figcaption>Brooklyn Cheesesteak from Filoncino Cafe.</figcaption>
+
+        <dt>
+          <strong em
+            >Don Reborto's, <abbr title="Staten Island"> S.I.</abbr>
+          </strong>
+        </dt>
+        <dd>I want to order the chicken parm.</dd>
+        <br />
+        <img
+          src="img/Don_Reberto's_CK_PM.jpeg"
+          alt="Don Reberto's Chicken Parm"
+          title="Don Reberto's Chicken parm"
+          loading="lazy"
+          width="250"
+          height="250"
+        />
+        <figcaption>Don Reberto's Chicken Parm.</figcaption>
+      </dl>
+      <p>
+        <a href="#">Back to Top</a>
+      </p>
+      <hr />
+      &lt;&lt;&lt; &copy; <a href="about.html">Mohamed Katary</a> &gt;&gt;&gt;
+    </section>
